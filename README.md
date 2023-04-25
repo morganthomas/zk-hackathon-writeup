@@ -1,5 +1,7 @@
 # Nixing zk-Harness
 
+This work was done with the support of Casper Association.
+
 For my contribution to the [Berkeley RDI ZKP / Web3 Hackathon, 2023](https://zk-hacking.org/), I made a Nix environment for the [zk-Harness](https://github.com/zkCollective/zk-Harness/) benchmarking framework and suite of benchmarks. The Nix environment allows for the benchmarks to be compiled, developed, and run on any Nix-compatible system. It pins the dependency versions, so that different versions of dependencies in the environment should not affect the results.
 
 This suite is a particularly good use case for Nix, because it has a large dependency footprint which can only be expected to grow as more frameworks are added. The main benefit is that it saves the user of the suite from needing to go through a lengthy setup process in order to compile, develop, and run the benchmarks on their machine.
